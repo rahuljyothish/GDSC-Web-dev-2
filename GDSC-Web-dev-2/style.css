@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg,#ffffff 0%, #ffffff 100%);
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.logo img{
+    width: 15px;
+    height: 15px;
+}
+
+.brand a{
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 3rem;
+}
+li > a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+li select{
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+li option{
+    color: #000000;
+    font-weight: 400;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f6f6f6;
+    padding: 10px 40px 10px 20px;
+}
+
+.search-box input{
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-style: 'Inter', sans-serif;
+}
+
+
+.search-box img{
+    width: 15px;
+}
+
+header button {
+    border: none;
+    background-color: #149BFC;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: 'Inter', sans-serif;
+}
